@@ -1,0 +1,86 @@
+# === Общие ===
+.DS_Store
+*.log
+*.tmp
+*.swp
+*.swo
+*.bak
+*.orig
+.idea/
+.vscode/
+.env
+.env.local
+*.pyc
+__pycache__/
+venv/
+.envrc
+*.pid
+
+# === Node / React ===
+node_modules/
+build/
+dist/
+coverage/
+.npm/
+.yarn/
+.yarn-cache/
+*.tsbuildinfo
+.next/
+out/
+storybook-static/
+*.env.production
+*.env.development
+
+# === Python / ML ===
+# среды
+.venv/
+.env/
+.ipynb_checkpoints/
+__pycache__/
+# кеши и артефакты
+*.pkl
+*.h5
+*.pt
+*.pth
+*.joblib
+*.ckpt
+*.npy
+*.npz
+*.csv
+*.tsv
+*.parquet
+*.sqlite
+# данные
+data/
+datasets/
+checkpoints/
+models/
+outputs/
+runs/
+logs/
+wandb/
+mlruns/
+# IDE
+.pytest_cache/
+.mypy_cache/
+.cache/
+
+# === Java / Maven / Gradle ===
+target/
+out/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.settings/
+*.project
+*.classpath
+
+# === OS Specific ===
+Thumbs.db
+ehthumbs.db
+Desktop.ini
